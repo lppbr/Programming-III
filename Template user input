@@ -1,7 +1,5 @@
 /*
- COSC2436 Lab 1, Instructor: Thayer
  Name: Travis Neel
- Semester: Fall 2016 BLUE
  Topic: Simplify user input with input function and function template
  */
 #include <string>
@@ -87,15 +85,3 @@ int main (){
 
     return 0;
 }
-
-/* Extra credit (will the function template work for input of a string?)
- 
- No, strings do not work in function templates. Templates only work for numeric data and 
- limits are met with const char* type data, which can reference a string from a
- seperate container or struct possibly?
- 
- */
-
-/* test output:
- 
- */
